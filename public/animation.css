@@ -1,0 +1,28 @@
+ 
+
+    #gravi:hover{
+      transform :scale(1.4);
+      transition: 0.56s;
+    }
+    #electromagnetic:hover{
+      transform :scale(1.4);
+      transition: 0.56s;
+    }
+    .rotationalbutton:hover{
+      transform :scale(1.4);
+      transition: 0.56s;
+    }
+   .magnetism:hover{
+    transform :scale(1.23);
+    transition: 0.56s;
+  }
+  #system:hover{
+    transform: scale(1.23);
+    transition: 0.56s;
+  }
+  .kepler:hover{
+    transform: scale(1.4);
+    transition: 0.56s;
+  }
+
+  

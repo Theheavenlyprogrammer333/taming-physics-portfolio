@@ -1,0 +1,735 @@
+
+body{
+  background-color: white;
+}
+
+#p1{
+    font-weight: 600;
+    font-size: 30px;
+    color: yellowgreen;
+}
+#p1:hover{
+  opacity: 50%;
+}
+
+#p2{
+    font-size: 80px;
+    color: #202c2d;
+    background-color: #e5e5f7;
+opacity: 0.4;
+background-image:  linear-gradient(30deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(150deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(30deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(150deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(60deg, #444cf777 25%, transparent 25.5%, transparent 75%, #444cf777 75%, #444cf777), linear-gradient(60deg, #444cf777 25%, transparent 25.5%, transparent 75%, #444cf777 75%, #444cf777);
+background-size: 20px 35px;
+background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
+text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5;
+}
+ 
+#p3 {
+    font-size: x-large;
+    color: greenyellow;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+background-clip: text;
+text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+}
+#p3:hover{
+  opacity: 30%;
+  border: solid 3px greenyellow; 
+}
+#p4{
+    font-size: x-large;
+    color: pink;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+background-clip: text;
+text-shadow: 0px 3px 3px rgba(255,255,255,0.5);}
+#p4:hover{
+  opacity: 30%;
+  border: solid pink 3px;
+}
+#p5{
+  font-size: x-large;
+    color: #a2d2ff;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+background-clip: text;
+text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+}
+#p5:hover{
+  opacity: 30%;
+  border: solid #a2d2ff 3px;
+}
+#blackboard{
+     
+        width: 1210px;
+        height: 400px;
+        background-image: url('https://images.unsplash.com/photo-1585773816589-99af4e1711c1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2tib2FyZHxlbnwwfHwwfHx8MA%3D%3D'); 
+        background-size: cover; /* Scale the image to cover the element */
+        background-repeat: no-repeat; /* Avoid repeating the image */
+        background-position: center; /* Center the image */
+        border: 1px solid #ccc; /* Optional: Add a border */
+         
+}
+
+#buttonbackground{
+  width: 1210px;
+  height: 400px;
+  background-image: url('https://img.freepik.com/free-photo/empty-blackboard_53876-30426.jpg'); 
+  background-size: cover; /* Scale the image to cover the element */
+  background-repeat: no-repeat; /* Avoid repeating the image */
+  background-position: center; /* Center the image */
+  border: 1px solid #ccc; /* Optional: Add a border */
+}
+
+/*remove underline id*/
+#a1{
+    text-decoration: none;
+}
+#a2{
+  text-decoration: none;
+  color: white;
+}
+#a2:hover{
+  color: black;
+}
+/*remove underline id*/
+
+/* youtube channel buttonz*/
+.youtube {
+  min-width: 113px;
+  height: 90px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #d90429;
+  background: #d90429;
+   opacity: 0; /* Start invisible */
+  animation: slide-in 3s forwards;
+  animation-timeline: view(); /* Triggers when element enters viewport */
+}
+
+.youtube:hover {
+  background: #fff;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg');
+  background-size: 50px 50px; /* Adjust the size of the icon */
+  background-repeat: no-repeat;
+  background-position: center; /* Center the icon */
+  transform: scale(1.3);
+}
+/*youtube channel end*/
+
+/*facebook buttton*/
+.facebook{
+  min-width: 113px;
+  height: 90px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #1604d9;
+  background: #1604d9;
+   opacity: 0; /* Start invisible */
+  animation: slide-in 3s forwards;
+  animation-timeline: view(); /* Triggers when element enters viewport */
+}
+
+.facebook:hover {
+  background: #fff;
+  
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/768px-Facebook_Logo_%282019%29.png');
+  background-size: 50px 50px; /* Adjust the size of the icon */
+  background-repeat: no-repeat;
+  background-position: center; /* Center the icon */
+  transform: scale(1.3);
+}
+/*facebook - button end*/
+#af{
+  text-decoration: none;
+  color: white;
+}
+#af:hover{
+  color: black;
+}
+.emoj{
+  text-align: center;
+}
+#why{
+  display: flex;
+   flex-wrap:nowrap;
+   align-items: baseline;
+  justify-content: space-between;
+  gap: 30px;
+   opacity: 0; /* Start invisible */
+  animation: slide-in 3s forwards;
+  animation-timeline: view(); /* Triggers when element enters viewport */
+}
+#sec{
+  display: flex;
+  justify-content: baseline;
+  justify-content: space-around;
+}
+
+#sec2{
+  
+  height: 290px;
+  background-color: black;
+}
+ 
+ .w1:hover{
+  transform: scale(1.3);
+
+  .w1:hover{
+    transform: scale(1.3);
+  
+   }
+ }
+ .w2:hover{
+  transform: scale(1.3);
+
+ }
+
+ .w3:hover{
+  transform: scale(1.3);
+
+ }
+ .w4:hover{
+  transform: scale(1.3);
+
+ }
+ .w5:hover{
+  transform: scale(1.2);
+
+ }
+
+ #exp{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  gap: 30px;
+ }
+
+ .faculty {
+  min-width: 130px;
+  height: 140px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #40916c;
+  color: #40916c;
+}
+.faculty:hover {
+  color: #fff;
+}
+.faculty:hover:after {
+  height: 100%;
+}
+.faculty:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  width: 100%;
+  background: #40916c;
+}
+
+ .problemSolving {
+  min-width: 130px;
+  height: 140px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #a3b18a;
+  color: #a3b18a;
+}
+.problemSolving:hover {
+  color: #fff;
+}
+.problemSolving:hover:after {
+  height: 100%;
+}
+.problemSolving:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  width: 100%;
+  background: #a3b18a;
+}
+
+.PersonalizedAttention {
+  min-width: 130px;
+  height: 140px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #3a5a40;
+  color: #3a5a40;
+}
+.PersonalizedAttention:hover {
+  color: #fff;
+}
+.PersonalizedAttention:hover:after {
+  height: 100%;
+}
+.PersonalizedAttention:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  width: 100%;
+  background: #3a5a40;
+}
+
+#missile{
+  position: absolute;
+  right: 30px;
+}
+
+.tickanimation{
+  position: relative;
+  top: 270px;
+  right: 330px;
+}
+#lightbulb{
+  position: absolute;
+  top: 200px;
+  left: 1100px;
+}
+ 
+ 
+
+      #imgsec {
+        width: 1200px;  /* Increased width */
+        height: 500px;  /* Increased height */
+        overflow: hidden;
+        position: relative;
+        border: 5px solid #333;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        margin: 20px auto;
+    }
+    
+    .image-container {
+        display: flex;
+        transition: transform 0.5s ease;
+        height: 100%;
+    }
+    
+    .image-container img {
+        min-width: 100%;  /* Changed from 900% to 100% */
+        height: 100%;     /* Changed to fill container height */
+        object-fit: cover;
+    }
+    
+        
+        .nav-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0,0,0,0.5);
+            color: white;
+            border: none;
+            padding: 15px;
+            cursor: pointer;
+            font-size: 18px;
+            z-index: 10;
+            border-radius: 50%;
+            
+        }
+
+        #prev {
+            left: 10px;
+        }
+        
+        #next {
+            right: 10px;
+        }
+        
+        .nav-button:hover {
+            background: rgba(0,0,0,0.8);
+        }
+
+        #faculty:hover{
+          rotate: 3deg;
+        }
+        #faculty:after{
+          rotate:0deg;
+        }
+
+        .problemSolving:hover{
+          rotate:3deg
+        }
+        .problemSolvin::after{
+          rotate:0deg
+        }
+
+        .PersonalizedAttention:hover{
+          rotate:3deg
+        }
+        .PersonalizedAttention:after{
+          rotate:0deg
+        }
+
+        #profile{
+          display: grid;
+         grid-template-rows: 5fr,2f;
+          height: 600px;
+          width: 1370px;
+          background-color: black;
+        
+        }
+
+       #profilecomponents {
+  opacity: 0; /* Start invisible */
+  animation: slide-in 3s forwards;
+  animation-timeline: view(); /* Triggers when element enters viewport */
+}
+
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+ 
+#choosetamingphysics{
+  opacity: 0; /* Start invisible */
+  animation: slide-in 3s forwards;
+  animation-timeline: view(); /* Triggers when element enters viewport */
+}
+
+ #role1 {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #57cc99;
+  color: #57cc99;
+}
+#role1:hover {
+  color: #fff;
+  border: 5px solid #57cc99;
+}
+#role1:hover:after {
+  width: 100%;
+  border: 5px dotted #57cc99;
+}
+#role1:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #57cc99;
+  border: 5px solid #57cc99;
+}
+
+#role2 {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #48bfe3;
+  color: #48bfe3;
+}
+#role2:hover {
+  color: #fff;
+}
+#role2:hover:after {
+  width: 100%;
+}
+#role2:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #48bfe3;
+}
+
+#role3 {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #ffbf69;
+  color: #ffbf69;
+}
+#role3:hover {
+  color: #fff;
+}
+#role3:hover:after {
+  width: 100%;
+}
+#role3:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #ffbf69;
+}
+
+#role4 {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #ff4d6d;
+  color: #ff4d6d;
+}
+#role4:hover {
+  color: #fff;
+}
+#role4:hover:after {
+  width: 100%;
+}
+#role4:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #ff4d6d;
+}
+ 
+ 
+#role5 {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #2ec4b6;
+  color:#2ec4b6;
+}
+#role5:hover {
+  color: #fff;
+}
+#role5:hover:after {
+  width: 100%;
+}
+#role5:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background:#2ec4b6;
+}
+
+
+
+#role6 {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #083d77;
+  color:#083d77;
+}
+#role6:hover {
+  color: #fff;
+}
+#role6:hover:after {
+  width: 100%;
+}
+#role6:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #083d77;
+}
+
+
+#role7 {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #57cc99;
+  color: #57cc99;
+}
+#role7:hover {
+  color: #fff;
+}
+#role7:hover:after {
+  width: 100%;
+}
+#role7:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #57cc99;
+}
+
+
+#ourrole{
+   opacity: 0; /* Start invisible */
+  animation: slide-in 3s forwards;
+  animation-timeline: view();
+}
+
+.shrinkbutton:hover{
+    transform: scale(0.8);
+    border: 5px solid;
+}
+
+.swiper {
+  width:1370px;
+  height: 500px;
+}
+
+.swiper-slide{
+  background-size: cover;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size:xx-large ;
+  padding: 50px;
+}
+ 

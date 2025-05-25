@@ -1,0 +1,362 @@
+body {
+  background-color: #f4f4f4;
+  background-image: radial-gradient(circle, #af4c0a 10%, transparent 10%),
+                    radial-gradient(circle, #cccccc 10%, transparent 10%);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.css-button-arrow--red {
+    width: 1000px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    background-color: #ef233c;
+    
+  }
+  
+  .css-button-arrow--red:hover {
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left: 8px;
+  }
+  
+  .css-button-arrow--red:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+  
+  .css-button-arrow--red:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 40px;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+  }
+  
+    .css-button-arrow--red {
+      width: 1000px;
+      height: 40px;
+      color: #fff;
+      padding: 5px 10px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      display: inline-block;
+      outline: none;
+      overflow: hidden;
+      border-radius: 5px;
+      border: none;
+      background-color: #ef233c;
+    }
+    
+    .css-button-arrow--red:hover {
+      border-radius: 5px;
+      padding-right: 24px;
+      padding-left: 8px;
+    }
+    
+    .css-button-arrow--red:hover:after {
+      opacity: 1;
+      right: 10px;
+    }
+    
+    .css-button-arrow--red:after {
+      content: "\00BB";
+      position: absolute;
+      opacity: 0;
+      font-size: 20px;
+      line-height: 40px;
+      top: 0;
+      right: -20px;
+      transition: 0.4s;
+    }
+    /* youtube channel buttonz*/
+  
+  
+    /* gravitation button*/
+    .css-button-sliding-to-bottom--yellow {
+      
+      min-width: 130px;
+      height: 140px;
+      color: #fff;
+      padding: 5px 10px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      display: inline-block;
+      outline: none;
+      border-radius: 30%;
+      z-index: 0;
+      background: #fff;
+      overflow: hidden;
+      border: 2px solid #ffd819;
+      color: #ffd819;
+    }
+    .css-button-sliding-to-bottom--yellow:hover {
+      color: #fff;
+    }
+    .css-button-sliding-to-bottom--yellow:hover:after {
+      height: 100%;
+    }
+    .css-button-sliding-to-bottom--yellow:after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      transition: all 0.3s ease;
+      left: 0;
+      top: 0;
+      height: 0;
+      width: 100%;
+      background: #ffd819;
+    }
+    #gravi{
+      text-decoration: none;
+    }
+  /*copy - here !*/
+    .buttonelectro{
+      min-width: 180px;
+      height: 140px;
+      color: #fff;
+      padding: 5px 10px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      display: inline-block;
+      outline: none;
+      border-radius: 30%;
+      z-index: 0;
+      background: #fff;
+      overflow: hidden;
+      border: 2px solid #ffba08;
+      color: #ffba08;
+    }
+    .buttonelectro:hover {
+      color: #fff;
+    }
+    .buttonelectro:hover:after {
+      height: 100%;
+    }
+    .buttonelectro:after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      transition: all 0.3s ease;
+      left: 0;
+      top: 0;
+      height: 0;
+      width: 100%;
+      background: #ffba08;
+    }
+    /*copy - here !*/
+    #gravi{
+      text-decoration: none;
+    }
+  
+    
+    .rotationalbutton{
+      min-width: 130px;
+      height: 140px;
+      color: #fff;
+      padding: 5px 10px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      display: inline-block;
+      outline: none;
+      border-radius: 30%;
+      z-index: 0;
+      background: #fff;
+      overflow: hidden;
+      border: 2px solid #88857d;
+      color: #88857d;
+    }
+    .rotationalbutton:hover {
+      color: #fff;
+    }
+    .rotationalbutton:hover:after {
+      height: 100%;
+    }
+    .rotationalbutton:after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      transition: all 0.3s ease;
+      left: 0;
+      top: 0;
+      height: 0;
+      width: 100%;
+      background:  #88857d;
+    }
+    #gravi{
+      text-decoration: none;
+    }
+    .navtext{
+      text-decoration-color: red;
+    }
+    #a1{
+        text-decoration: none;
+    }
+
+
+    /*magnetism button*/
+    .magnetism {
+      
+      min-width: 130px;
+      height: 140px;
+      color: #fff;
+      padding: 5px 10px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      display: inline-block;
+      outline: none;
+      border-radius: 30%;
+      z-index: 0;
+      background: #fff;
+      overflow: hidden;
+      border: 2px solid #343a40;
+      color: #343a40;
+  }
+  .magnetism:hover {
+      color: #fff;
+  }
+  .magnetism:hover:after {
+      height: 100%;
+  }
+  .magnetism:after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      transition: all 0.3s ease;
+      left: 0;
+      top: 0;
+      height: 0;
+      width: 100%;
+      background: #343a40;
+  } 
+        /*magnetism button end*/
+
+    
+        .particle{
+          min-width: 180px;
+          height: 140px;
+          color: #fff;
+          padding: 5px 10px;
+          font-weight: bold;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          position: relative;
+          display: inline-block;
+          outline: none;
+          border-radius: 30%;
+          z-index: 0;
+          background: #fff;
+          overflow: hidden;
+          border: 2px solid #219ebc;
+          color: #219ebc;
+        }
+        .particle:hover {
+          color: #fff;
+        }
+        .particle:hover:after {
+          height: 100%;
+        }
+        .particle:after {
+          content: "";
+          position: absolute;
+          z-index: -1;
+          transition: all 0.3s ease;
+          left: 0;
+          top: 0;
+          height: 0;
+          width: 100%;
+          background: #219ebc;
+        }
+
+        
+        .kepler{
+          
+          min-width: 180px;
+          height: 140px;
+          color: #fff;
+          padding: 5px 10px;
+          font-weight: bold;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          position: relative;
+          display: inline-block;
+          outline: none;
+          border-radius: 30%;
+          z-index: 0;
+          background: #fff;
+          overflow: hidden;
+          border: 2px solid #ff006e;
+          color: #ff006e;
+        }
+        .kepler:hover {
+          color: #fff;
+        }
+        .kepler:hover:after {
+          height: 100%;
+        }
+        .kepler:after {
+          content: "";
+          position: absolute;
+          z-index: -1;
+          transition: all 0.3s ease;
+          left: 0;
+          top: 0;
+          height: 0;
+          width: 100%;
+          background: #ff006e;
+        }
+.cl1{
+  border-radius: 30%;
+  border-style: dotted;
+  width: 300px;
+  height: 700px;
+}
+.section{
+  display: flex;
+  justify-content: end ;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#i1 {
+  display: flex;
+  justify-content: center;
+}
+ 
+
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+ 

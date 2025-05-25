@@ -1,0 +1,80 @@
+/* General image styling */
+#img {
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 100%;
+}
+
+#img {
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    height: auto;
+    border-radius: 12px; /* Soft rounded corners */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+    border: 2px solid #ffffff; /* Optional: White border for contrast */
+}
+
+/* Hover effect for interactivity */
+#img:hover {
+    transform: scale(1.02); /* Slight zoom on hover */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #img {
+        max-width: 90%; /* Slightly smaller on mobile */
+        border-radius: 8px;
+    }
+}
+
+   #imgsec {
+            width: 612px; /* Match your image width */
+            height: 300px; /* Slightly taller than images for padding */
+            overflow: hidden;
+            position: relative;
+            border: 5px solid #333;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+            margin: 20px auto;
+        }
+
+         .image-container {
+            display: flex;
+            transition: transform 0.5s ease;
+            height: 100%;
+        }
+
+         
+        .image-container img {
+            min-width: 100%;
+            height: 250px;
+            object-fit:cover;
+        }
+
+           .nav-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0,0,0,0.5);
+            color: white;
+            border: none;
+            padding: 15px;
+            cursor: pointer;
+            font-size: 18px;
+            z-index: 10;
+            border-radius: 50%;
+        }
+          
+        #prev {
+            left: 10px;
+        }
+
+          
+        #next {
+            right: 10px;
+        }

@@ -1,0 +1,255 @@
+#sec1 {
+  display: flex;
+  align-items: flex-end;
+  gap: 90px;
+    opacity: 0; /* Start invisible */
+  animation: slide-in 3s forwards;
+  animation-timeline: view(); /* Triggers when element enters viewport */
+}
+
+
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+#p1 {
+  min-width: 180px;
+  height: 140px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 1s ease; /* Updated to 1s */
+  position: relative;
+  display: inline-block;
+  outline: none;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #ffd819;
+  color: #ffd819;
+}
+
+#p1:hover {
+  color: #fff;
+}
+
+#p1:hover:after {
+  height: 100%;
+}
+
+#p1:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 1s ease; /* Updated to 1s */
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  background:  #ffd819;
+  
+}
+
+/* p2 */
+
+#p2 {
+  min-width: 180px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 1s ease; /* Updated to 1s */
+  position: relative;
+  display: inline-block;
+  outline: none;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid  #ffd819;
+  color: #ffd819;
+}
+
+#p2:hover {
+  color: #fff;
+}
+
+#p2:hover:after {
+  height: 100%;
+}
+
+#p2:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 1s ease; /* Updated to 1s */
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  background: #ffba08;
+}
+
+/* p3 */
+
+#p3 {
+  min-width: 180px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 1s ease; /* Updated to 1s */
+  position: relative;
+  display: inline-block;
+  outline: none;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #88857d;
+  color: #88857d;
+}
+
+#p3:hover {
+  color: #fff;
+}
+
+#p3:hover:after {
+  height: 100%;
+}
+
+#p3:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 1s ease; /* Updated to 1s */
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  background: #88857d;
+}
+
+/* p4 */
+
+#p4 {
+  min-width: 180px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 1s ease; /* Updated to 1s */
+  position: relative;
+  display: inline-block;
+  outline: none;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #343a40;
+  color: #343a40;
+}
+
+#p4:hover {
+  color: #fff;
+}
+
+#p4:hover:after {
+  height: 100%;
+}
+
+#p4:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 1s ease; /* Updated to 1s */
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  background: #343a40;
+}
+
+/* p5 */
+
+#p5 {
+  min-width: 180px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 1s ease; /* Updated to 1s */
+  position: relative;
+  display: inline-block;
+  outline: none;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #219ebc;
+  color: #219ebc;
+}
+
+#p5:hover {
+  color: #fff;
+}
+
+#p5:hover:after {
+  height: 100%;
+}
+
+#p5:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 1s ease; /* Updated to 1s */
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  background: #219ebc;
+}
+
+/* p6 */
+
+#p6 {
+  min-width: 180px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 1s ease; /* Updated to 1s */
+  position: relative;
+  display: inline-block;
+  outline: none;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #ff006e;
+  color: #ff006e;
+}
+
+#p6:hover {
+  color: #fff;
+}
+
+#p6:hover:after {
+  height: 100%;
+}
+
+#p6:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 1s ease; /* Updated to 1s */
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  background: #ff006e;
+}
+

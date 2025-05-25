@@ -1,0 +1,13 @@
+ #consec{
+    display: flex;
+    justify-content: center;
+ }
+ #sec{
+    display: flex;
+    justify-content: center;
+ }
+ #emailsec{
+   display: flex;
+   justify-content: center;
+   font-size: xx-large;
+ }

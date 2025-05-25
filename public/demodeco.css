@@ -1,0 +1,17 @@
+#container{
+    display: flex;
+    background-color: aquamarine;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 6px solid black;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: start;
+
+}
+#container div{
+    width: 200px;
+    height: 200px;    
+}
