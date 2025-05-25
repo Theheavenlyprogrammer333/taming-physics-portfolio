@@ -1,0 +1,208 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="syllabus.css">
+<link rel="stylesheet" href="table.css">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bytesized&family=Caveat:wght@400..700&family=Rakkas&family=Shadows+Into+Light&family=Ysabeau+SC:wght@1..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="/js/bootstrap.min.js"></script>
+    <title>Syllabus -taming physics!</title>
+</head>
+<body>
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <a class="navbar-brand text-success" href="#">Taming Physics</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link text-aquamarine" style="color: aquamarine;" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-aquamarine" style="color: aquamarine;" href="/contacts">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-aquamarine" style="color: aquamarine;" href="/learn">Learn</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+ <h1>Hover me</h1>
+<div class="background-image">
+<body>
+
+    <p style="font-size: xx-large; font-family: Verdana, Geneva, Tahoma, sans-serif;">physics syllabus</p>
+    <button onclick="showit()">show physics syllabus</button>
+    <button onclick="hideit()">close</button>
+<div id="table1" style="display: none;">
+    <table>
+        <tr>
+            <th>Unit No.</th>
+            <th>Unit Name</th>
+            <th>Chapters</th>
+        </tr>
+        <tr>
+            <td>Unit-1</td>
+            <td class="unit-name">ELECTROSTATICS</td>
+            <td id="chaptername">
+                Chapter–1: Electric Charges and Fields<br>
+                Chapter–2: Electrostatic Potential and Capacitance
+            </td>
+        </tr>
+        <tr>
+            <td>Unit-2</td>
+            <td class="unit-name">CURRENT ELECTRICITY</td>
+            <td id="chaptername">Chapter–3: Current Electricity</td>
+        </tr>
+        <tr>
+            <td>Unit-3</td>
+            <td class="unit-name">MAGNETIC EFFECTS OF CURRENT AND MAGNETISM</td>
+            <td id="chaptername">
+                Chapter–4: Moving Charges and Magnetism<br>
+                Chapter–5: Magnetism and Matter
+            </td>
+        </tr>
+        <tr>
+            <td>Unit-4</td>
+            <td class="unit-name">ELECTROMAGNETIC INDUCTION AND ALTERNATING CURRENTS</td>
+            <td id="chaptername">
+                Chapter–6: Electromagnetic Induction<br>
+                Chapter–7: Alternating Current
+            </td>
+        </tr>
+        <tr>
+            <td>Unit-5</td>
+            <td class="unit-name">ELECTROMAGNETIC WAVES</td>
+            <td id="chaptername">Chapter–8: Electromagnetic Waves</td>
+        </tr>
+        <tr>
+            <td>Unit-6</td>
+            <td class="unit-name">OPTICS</td>
+            <td id="chaptername">
+                Chapter–9: Ray Optics and Optical Instruments<br>
+                Chapter–10: Wave Optics
+            </td>
+        </tr>
+        <tr>
+            <td>Unit-7</td>
+            <td  class="unit-name">DUAL NATURE OF RADIATION AND MATTER</td>
+            <td id="chaptername">Chapter–11: Dual Nature of Radiation and Matter</td>
+        </tr>
+        <tr>
+            <td>Unit-8</td>
+            <td class="unit-name">ATOMS AND NUCLEI</td>
+            <td id="chaptername">
+                Chapter–12: Atoms<br>
+                Chapter–13: Nuclei
+            </td>
+        </tr>
+        <tr>
+            <td>Unit-9</td>
+            <td class="unit-name">ELECTRONIC DEVICES</td>
+            <td>Chapter–14: Semiconductor Electronics: Materials, Devices and Simple Circuits</td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>
+
+<script>
+ function showit()
+  {
+   $("#table1").show();
+  }
+
+  function hideit(){
+    $('#table1').hide();
+  }
+  </script>
+
+<p>chemistry syllabus</p>
+<button onclick="showit2()">show chemistry syllabus</button>
+<button onclick="hideit2()">close</button>
+
+<div style="display: none;" id="table2">
+<table border="1">
+    <thead>
+      <tr>
+        <th>S.No.</th>
+        <th>Title</th>
+        <th>No. of Periods</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1.</td>
+        <td id="chemChapterName" style="font-weight: bolder;">Solutions</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td id="chemChapterName" style="font-weight: bolder;">Electrochemistry</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td id="chemChapterName" style="font-weight: bolder;">Chemical Kinetics</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>4.</td>
+        <td id="chemChapterName" style="font-weight: bolder;">d -and f -Block Elements</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>5.</td>
+        <td id="chemChapterName" style="font-weight: bolder;">Coordination Compounds</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>6.</td>
+        <td id="chemChapterName" style="font-weight: bolder;">Haloalkanes and Haloarenes</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>7.</td>
+        <td id="chemChapterName" style="font-weight: bolder;" >Alcohols, Phenols and Ethers</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>8.</td>
+        <td id="chemChapterName" style="font-weight: bolder;">Aldehydes, Ketones and Carboxylic Acids</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>9.</td>
+        <td id="chemChapterName" style="font-weight: bolder;">Amines</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>10.</td>
+        <td id="chemChapterName" style="font-weight: bolder;">Biomolecules</td>
+        <td>12</td>
+      </tr>
+      <tr>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+  <script>
+    function showit2(){
+      $('#table2').show();
+    }
+
+    function hideit2(){
+      $('#table2').hide();
+    }
+  </script>
+  </div>

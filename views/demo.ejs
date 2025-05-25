@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Learning Platform</title>
+    <!-- Swiper JS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            min-height: 100%;
+            position: relative;
+        }
+
+        /* Animated Background */
+        .bg {
+            animation: slide 3s ease-in-out infinite alternate;
+            background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+            bottom: 0;
+            left: -50%;
+            opacity: .5;
+            position: fixed;
+            right: -50%;
+            top: 0;
+            z-index: -1;
+        }
+
+        .bg2 {
+            animation-direction: alternate-reverse;
+            animation-duration: 4s;
+        }
+
+        .bg3 {
+            animation-duration: 5s;
+        }
+
+        @keyframes slide {
+            0% {
+                transform: translateX(-25%);
+            }
+            100% {
+                transform: translateX(25%);
+            }
+        }
+
+        /* Blackboard Section */
+        #movingbackground {
+            padding: 20px;
+            position: relative;
+        }
+
+        #blackboard {
+            background-color: #1a1a1a;
+            border: 10px solid #8B4513;
+            border-radius: 10px;
+            padding: 20px;
+            color: white;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        #blackboard p {
+            font-size: 1.2em;
+            margin: 15px 0;
+            color: #f0f0f0;
+        }
+
+        .emoj {
+            font-size: 2em;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Subjects Section */
+        b {
+            display: block;
+            text-align: center;
+            margin: 20px 0;
+            color: #333;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Swiper Styles */
+        .swiper {
+            width: 100%;
+            max-width: 1000px;
+            height: 400px;
+            margin: 0 auto;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .swiper-slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3em;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .swiper-pagination-bullet {
+            background: white;
+            opacity: 0.7;
+        }
+
+        .swiper-pagination-bullet-active {
+            background: #09f;
+            opacity: 1;
+        }
+
+        .swiper-button-next, .swiper-button-prev {
+            color: white;
+            background: rgba(0, 0, 0, 0.3);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+        }
+
+        .swiper-button-next:hover, .swiper-button-prev:hover {
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        .swiper-scrollbar {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .swiper-scrollbar-drag {
+            background: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Animated Background Elements -->
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+
+    <section id="movingbackground">
+        <!-- Blackboard Section -->
+        <div id="blackboard">
+            <p style="font-family: cursive;" id="p3">&star; This is the best website to learn physics ~ probably you after studying here very seriously.</p>
+            <p style="font-family: cursive;" id="p4">&star; These videos should be used by all teachers to study ~ probably your teacher after you reveal the secret behind your top rank!</p>
+            <p style="font-family: cursive;" id="p5">&star; The sloth is the fastest now! ~ probably your friends after seeing you learn concepts way more easily than before.</p>
+            <p class="emoj">&#128526;&#128526;&#128526;</p>
+        </div>
+        <!-- Blackboard Section End -->
+    </section>
+
+    <b style="font-size: xx-large;">many subjects to learn ! </b>
+    <br><br>
+    
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGh5c2ljc3xlbnwwfHwwfHx8MA%3D%3D');">Physics</div>
+
+            <div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1509228468518-180dd4864904?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWF0aHN8ZW58MHx8MHx8fDA%3D');">Maths</div>
+
+            <div class="swiper-slide" style="background-image: url('https://plus.unsplash.com/premium_photo-1661603887154-cb5f58a51768?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGNoZW1pc3RyeXxlbnwwfHwwfHx8MA%3D%3D');">Chemistry</div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+    <br><br>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <!-- Initialize Swiper -->
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+
+            // Autoplay
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+
+            // Effect
+            effect: 'fade',
+            fadeEffect: {
+                crossFade: true
+            },
+        });
+    </script>
+</body>
+</html>
